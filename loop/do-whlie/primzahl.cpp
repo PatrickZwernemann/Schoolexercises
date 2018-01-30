@@ -5,7 +5,7 @@ int main()
 	
 	do
 	{
-		cout << "Bitte geben sie eine Zahl ein: " << endl;
+	cout << "Bitte geben sie eine Zahl ein: " << endl;
     	cin >> userInput ;
     	
     	for (int i = 2; i <= userInput/2; i++)
