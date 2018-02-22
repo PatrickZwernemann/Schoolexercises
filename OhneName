@@ -1,0 +1,8 @@
+// SmallC++ 2010, all rights reserved
+#include <iostream.h>
+int main()   
+{ 
+
+  getchar();
+  return 0; 
+}
