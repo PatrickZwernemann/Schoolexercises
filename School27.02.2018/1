@@ -1,0 +1,22 @@
+int main()   
+{  
+int a, b; 
+          cout << "Bitte geben sie eine Zahl ein" << endl;
+          cout << "Diese Zahl mus einn Integerwert sein" << endl;  
+  do 
+  {   
+        cin >> a;   
+        if ( a < 0 || a > 100 )     
+        cout << "Achtung falsche Eingabe" << endl; 
+  }  
+        while  ( a < 0 || a > 100 ) ;
+        cout << "Bitte geben sie eine Zahl ein" << endl;
+        cout << "Diese Zahl mus einn Integerwert sein" << endl;
+  do 
+  {    
+        cin >> b;   
+        if ( b < 0 || b > 100)     
+        cout << "Achtung falsche Eingabe" << endl; 
+  }
+        while  ( b < 0 || b > 100 );  return 0; 
+}
