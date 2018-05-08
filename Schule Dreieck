@@ -1,0 +1,19 @@
+/*Patrick_Zwernemann_Ieta71_08.05.2018_FLäche Dreieck*/
+
+#include <iostream.h>
+double flaecheDreieck (double,double);
+
+int main()   
+{
+	
+	cout<< flaecheDreieck(1,1);
+	
+	
+	
+  getchar();
+  return 0; 
+}
+double flaecheDreieck (double a,double h)
+	{
+	return 0.5*a*h;
+	}
